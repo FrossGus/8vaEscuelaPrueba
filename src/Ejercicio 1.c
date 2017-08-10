@@ -9,20 +9,20 @@ que se repite la letra.
 
 int main ()
 {
-	
+
 	char palabra [21];
 	int i;
 	int contador = 0;
-		
-	printf("\nIngrese la palabra: ");
+
+	printf("\nIngrese la palabra sin errores de una buena vez coño !!!:");
 	scanf("%s",palabra);
-	
+
 	for (i=0;i<20;i++)
 	{
 		if (palabra[i] == 's' || palabra[i] == 'S') contador++;
-	
+
 	}
-	
+
 	if (contador == 1) printf("\nLa letra `s` se encuentra repetida %d vez", contador);
 		else
 		if (contador > 1) printf("\nLa letra `s` se encuentra repetida %d veces", contador);
