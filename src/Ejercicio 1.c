@@ -14,7 +14,7 @@ int main ()
 	int i;
 	int contador = 0;
 
-	printf("\nIngrese la palabra sin errores de una buena vez coño !!!:");
+	printf("\nIngrese la palabra sin errores de una buena vez !!!:");
 	scanf("%s",palabra);
 
 	for (i=0;i<20;i++)
